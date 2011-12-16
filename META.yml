@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Devel-Plumber
-version:            0.3.1
+version:            0.3.2
 abstract:           ~
 author:
     - Greg Banks <gnb@fastmail.fm>
@@ -10,7 +10,10 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    Devel::GDB:      0
+    threads:         0
+    Tree::Interval:  0
 no_index:
     directory:
         - t

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Devel-Plumber
-version:            0.3.3
+version:            0.3.4
 abstract:           ~
 author:
     - Greg Banks <gnb@fastmail.fm>
